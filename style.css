@@ -72,3 +72,12 @@
     background-color: black;
     margin-top: 32px;
 }
+/* main section  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
