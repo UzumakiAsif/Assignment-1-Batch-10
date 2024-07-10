@@ -8,6 +8,9 @@
   *{
     color: #0D1321;
     font-size: 16px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 
   }
 
@@ -160,6 +163,7 @@ main {
 
   /* skill section  */
   .skill-content{
+    width: 1140px;
     display: flex;
     gap: 25px;
     margin: 20px 25px;
@@ -170,6 +174,7 @@ main {
     height: 300px;
     width: 360px;
     margin-top: 50px;
+    /* border: 2px solid red */
   }
 
 .target-description{
@@ -177,7 +182,31 @@ main {
     /* height: 115px;   */
     margin: 50px;
     padding: 20px;
+    /* border: 2px solid red */
 }
+
+
+ /* future section  */
+ .future-content{
+  text-align: center;
+  margin-bottom: 50px;
+
+
+ }
+
+ .future{
+  display: flex;
+  gap: 25px;
+  padding: 40px;
+  margin-bottom: 24px;
+  border: 1px solid whitesmoke;
+  width: 1140px;
+  height: 220px;
+  border-radius: 16px;
+  align-items: center;
+}
+
+
 
 /* form section  */
 .submission{
@@ -203,9 +232,13 @@ footer{
     /* background-color: aqua; */
     height: 100px;
     width: auto;
+    border: 2px solid white;
+    background-color: #004CE80D;
 }
+
 .section-footer{
     display: flex;
     justify-content: space-between;
     margin: 32px 150px;
+    /* border: 2px solid red; */
 }
