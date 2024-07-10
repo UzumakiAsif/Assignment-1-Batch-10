@@ -1,200 +1,190 @@
 /* font  */
 .azeret-mono-normal {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-  }
-  *{
-    color: #0D1321;
-    font-size: 16px;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-
-  }
-
-  /* shared styles section  */
-  .text-primary{
-    color: #0D1321;
-  }
-  .text-description{
-    color: #0D1321;
-    font-size: 16px;
-  }
-  .primary-font{
-    font-size: 32px;
-    font-weight: 800;
-    color: #0D1321;
-  }
-  .div-content-title{
-    color: #0D1321;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-
-
-
-  /* nav section  */
-  nav{
-    color: #0D1321;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 140px;
-    margin-right: 150px;
-    margin-top: 40px;
-  }
-  nav h2{
-    color: #0D1321;
-    font-size: 28px;
-    font-weight: 800;
-  }
-
-  /* button  */
-  .btn-resume {
-    font-family:"Azeret Mono", monospace; ;
-    color: #0D1321;
-    
-    font-size: 20px;
-    font-weight: 600;
-    padding: 17px 24px;
-    border-radius: 8px;
-    border: 1px solid black;
-    background-color: white;
-  }
- 
-  /* banner section  */
-.banner{
-    background-image: url(styles/Hero-bg.png);
-    height: 652px;
-    width: auto;
-    text-align: center;
-    padding: 26px 220px 44px;
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
-.banner h2{
-    font-size: 48px;
-    font-weight: 800;
-    color: #0D1321;
-    margin-top: 32px;
-    margin-bottom: 28px;
+* {
+  color: #0d1321;
+  font-size: 16px;
+  box-sizing: border-box;
+  /* margin: 0px; */
+  padding: 0px;
 }
-.banner button{
-    font-family:"Azeret Mono", monospace; ;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 17px 24px;
-    border-radius: 8px;
-    border: 1px solid black;
-    background-color: black;
-    margin-top: 32px;
+
+/* shared styles section  */
+.text-primary {
+  color: #0d1321;
+}
+
+.primary-font {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+}
+.div-content-title {
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* nav section  */
+nav {
+  color: #0d1321;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 150px;
+  margin-top: 40px;
+}
+nav h2 {
+  color: #0d1321;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* button  */
+.btn-resume {
+  font-family: "Azeret Mono", monospace;
+  color: #0d1321;
+
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: white;
+  cursor:pointer;
+  
+}
+
+/* banner section  */
+.banner {
+  background-image: url(styles/Hero-bg.png);
+  height: 652px;
+  width: auto;
+  text-align: center;
+  padding: 26px 220px 44px;
+}
+.banner h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #0d1321;
+  margin-top: 32px;
+  margin-bottom: 28px;
+}
+.banner button {
+  font-family: "Azeret Mono", monospace;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: black;
+  margin-top: 32px;
+  cursor:pointer;
 }
 
 /* main section  */
 main {
-    max-width: 1140px;
-    margin: 0 auto;
-  }
-  main section{
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  .section-background{
-    background-color: #fafafb;
-    padding: 20px;
-  }
-  .section-background button{
-    height: 47px;
-    width: 170px;
-    padding: 12px 20px 12px 20px;
-    border: 1px solid black;
-    color: #0D1321;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: white;
-  }
-
-
-.section-description{
-    text-align: center;
-    margin: 10px auto;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section-background {
+  background-color: #fafafb;
+  padding: 20px;
+}
+.section-background button {
+  height: 47px;
+  width: 170px;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid black;
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  cursor:pointer;
 }
 
-
-  /* section body  */
-  .div-content{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 10px;
-    width: 90%;
-    margin: auto;
-    padding: 20px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    border-radius: 16;
-
-  }
-
-  .div-size{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    justify-content: center;
-    align-items: start;
-    width: 477px;
-  }
-
-  .div-size button{
-    margin-top: 32;
-  }
-  
-  /* Inspiration section  */
-  .inspiration-content{
-    text-align: center;
-  }
-  .inspiration-vid{
-    margin-top: 50px;
-    text-align: center;
-
-  }
-
-  /* skill section  */
-  .skill-content{
-    width: 1140px;
-    display: flex;
-    gap: 25px;
-    margin: 20px 25px;
-  }
-  .skill{
-    padding: 40px;
-    border-radius: 16px;
-    height: 300px;
-    width: 360px;
-    margin-top: 50px;
-    /* border: 2px solid red */
-  }
-
-.target-description{
-    text-align: center;
-    /* height: 115px;   */
-    margin: 50px;
-    padding: 20px;
-    /* border: 2px solid red */
+.section-description {
+  text-align: center;
+  margin: 10px auto;
 }
 
+/* section body  */
+.div-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border-radius: 16;
+}
 
- /* future section  */
- .future-content{
+.div-size {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: start;
+  width: 477px;
+}
+
+.div-size button {
+  margin-top: 32;
+}
+
+/* Inspiration section  */
+.inspiration-content {
+  text-align: center;
+}
+.inspiration-vid {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* skill section  */
+.skill-content {
+  width: 1140px;
+  display: flex;
+  gap: 25px;
+  margin: 20px 25px;
+}
+.skill {
+  padding: 40px;
+  border-radius: 16px;
+  height: 360px;
+  width: 360px;
+  margin-top: 50px;
+  /* border: 2px solid red */
+}
+
+.target-description {
+  text-align: center;
+  /* height: 115px;   */
+  margin: 50px;
+  padding: 20px;
+  /* border: 2px solid red */
+}
+
+/* future section  */
+.future-content {
   text-align: center;
   margin-bottom: 50px;
+}
 
-
- }
-
- .future{
+.future {
   display: flex;
   gap: 25px;
   padding: 40px;
@@ -206,39 +196,74 @@ main {
   align-items: center;
 }
 
-
+.future-column {
+}
+.future-column h2 {
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.future-column p {
+}
 
 /* form section  */
-.submission{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.submission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
 }
-.support{
-    text-align: center;
-    background-image: url(styles/handshake.jpg);
-    background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-position: center;
-    height: 310px;
-    width: 1140px;
-    border-radius: 16px;
+.submission textarea {
+  padding-top: 15px;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
 
+.submission input {
+  font-family: "Azeret Mono", monospace;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 17px 24px;
+  border-radius: 8px;
+  background-color: white;
+  border: none;
+}
+.support {
+  /* text-align: center; */
+  background-image: url(styles/handshake.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+  width: 1140px;
+  border-radius: 16px;
+  padding: 64px 48px;
+}
+
+.support-content {
+  text-align: center;
+  margin-bottom: 24px;
+  color: white;
 }
 
 /* footer section  */
-footer{
-    /* background-color: aqua; */
-    height: 100px;
-    width: auto;
-    border: 2px solid white;
-    background-color: #004CE80D;
+footer {
+  /* background-color: aqua; */
+  height: 100px;
+  width: auto;
+  border: 2px solid white;
+  background-color: #004ce80d;
 }
 
-.section-footer{
-    display: flex;
-    justify-content: space-between;
-    margin: 32px 150px;
-    /* border: 2px solid red; */
+.section-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 150px;
+  /* border: 2px solid red; */
 }
